@@ -1,1 +1,1 @@
-# mohitmanuja.github.io
+mohitmanuja.com
