@@ -29,6 +29,30 @@
    <!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
+   <!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('t5h8gvxb59t4');
+</script>
+<!-- End of Async Drift Code -->
 
 </head>
 
@@ -46,9 +70,10 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+	         <!-- <li><a class="smoothscroll" href="#resume">Resume</a></li> -->
             <li><a class="smoothscroll" href="#portfolio">Works</a></li>
         <!--     <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
+            <li><a href="https://github.com/mohitmanuja">GitHub</a></li>
             <li><a class="smoothscroll" href="#about">Contact</a></li>
          </ul> <!-- end #nav -->
 
@@ -85,7 +110,7 @@
 
          <div class="three columns">
 
-            <img class="profile-pic"  src="https://firebasestorage.googleapis.com/v0/b/wallpapers-dd3fe.appspot.com/o/squarePix.jpg?alt=media&token=570c9463-6fc9-4a56-b17f-ee66ba99b367" alt="" />
+            <img class="profile-pic"  src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAAZhAAAAJGQyOWExY2ViLWYyZjMtNDkwZS04NzllLTNmZTRkZTQ4ZjY2Mw.jpg" alt="" />
 
          </div>
 
@@ -184,7 +209,7 @@
                   <h3>Open Source Contribution</h3>
 
                   <p> Resolved an issue in Open Event App by fosssia. Commit : <a href="https://github.com/fossasia/open-event-android/pulls?q=is%3Apr+author%3Amohitmanuja+is%3Aclosed">#102</a><br>
-                  Resolved an issue in Phimp.me App by fosssia. Commit : <a href="https://github.com/fossasia/phimpme-android/pulls?q=is%3Apr+is%3Aclosed+author%3Amohitmanuja">#102</a>
+                  Resolved issues in Phimp.me App by fosssia. Commits : <a href="https://github.com/fossasia/phimpme-android/pulls?q=is%3Apr+is%3Aclosed+author%3Amohitmanuja">#102</a>
                   </p>
 
                </div>
@@ -406,7 +431,7 @@
 
 		      <div class="description-box">
 			      <h4>Status &amp; Quotes</h4>
-			      <p>This is an app for Quotes lovers. It contains more than 15000+ quotes, postive affirmations, motivation videos and feature to write your own quote in your own style.<strong>It has more than 2 Lac Downloads with 1250+ Ratings/Reviews.</strong></p>
+			      <p>This is an app for Quotes lovers. It contains more than 15000+ quotes, postive affirmations, motivation videos and feature to write your own quote in your own style.<br><strong>It has more than 2 Lac Downloads with 1250+ Ratings/Reviews.</strong><br><a href="http://bit.ly/AwesomeStatus"></a></p>
                <span class="categories"><i class="fa fa-tag"></i>Android App</span>
 		      </div>
 
@@ -419,7 +444,7 @@
 
          <div id="modal-04" class="popup-modal mfp-hide">
 
-		      <img class="scale-with-grid" src="https://k37i.imgup.net/safe_hands4461.jpg" alt="" />
+		      <img class="scale-with-grid" src="https://firebasestorage.googleapis.com/v0/b/wallpapers-dd3fe.appspot.com/o/safe_hands.jpg?alt=media&token=e0d18a76-81b3-4b6d-9f05-77e06e19f01f" alt="" />
 
 		      <div class="description-box">
 			      <h4>SafePalm (Accident Emergency App) </h4>
@@ -470,7 +495,6 @@
 
          <div class="two columns header-col">
 
-            <h1><span>Get Hosting.</span></h1>
 
          </div>
 

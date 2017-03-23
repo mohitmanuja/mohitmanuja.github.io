@@ -187,7 +187,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #000;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -203,7 +203,7 @@ ul#nav li.current a { color: #F06000; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: #FFFFFF;
 }
 #about .profile-pic {
    position: relative;
@@ -582,7 +582,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #call-to-action {
-   background: #212121;
+   background: #000000;
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -615,7 +615,7 @@ ul#nav li.current a { color: #F06000; }
    color: inherit;
 }
 #call-to-action p {
-   color: #636363;
+   color: #FFFFFF;
    font-size: 17px;
 }
 /*#
